@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Compiled C++ binaries
+/system_agent
+/process_collector
+/monitoring_supervisor
+/system_action_agent
+/unified_telemetry_collector
+*.o
+*.out
+
+# Generated telemetry
+/data/*.csv
+/data/processed/*.csv
+/data/processed/*.tsv
+/data/processed/*.txt
+
+# Trained models
+/models/*.joblib
+/models/*.pkl
+
+# Logs
+/logs/*
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
